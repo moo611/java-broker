@@ -35,17 +35,21 @@ broker的命令： java -jar broker.jar 端口号 -b 其他broker的ip:端口号
 
 ### 所有指令功能
 
-发布者
-<br>创建主题: create 主题ID 主题名称</br>
-<br>发布消息: publish 主题ID 消息主体</br>
-<br>显示主题订阅者数量: show 主题ID</br>
-<br>删除主题: delete 主题ID</br>
+**发布者**
 
-订阅者
-<br>显示所有主题: display</br>
-<br>订阅主题: subscribe 主题ID </br>
-<br>显示订阅者当前的订阅情况: current</br>
-<br>取消订阅: unsubscribe 主题ID </br>
+* 创建主题: create 主题ID 主题名称
+* 发布消息: publish 主题ID 消息主体
+* 显示主题订阅者数量: show 主题ID
+* 删除主题: delete 主题ID
+
+
+**订阅者**
+
+* 显示所有主题: display
+* 订阅主题: subscribe 主题ID
+* 显示订阅者当前的订阅情况: current
+* 取消订阅: unsubscribe 主题ID
+
 
 
 
